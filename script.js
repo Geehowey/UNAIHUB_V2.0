@@ -10,7 +10,7 @@ const options = {
 // Title options with completion callback to start slogan typing
 const titleOptions = {
   ...options,
-  strings: ["# Welcome to UNAIHUB"],
+  strings: ["# WELCOME TO UNAIHUB"],
   onComplete: () => {
     // Once title typing is complete, start the slogan typing
     new Typed("#slogan", sloganOptions);
