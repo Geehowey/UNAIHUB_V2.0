@@ -1,0 +1,54 @@
+/* Existing styles for body, html, and other elements */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+}
+
+#markdownContent {
+  width: 80%;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 4em; /* Adjusted for larger size */
+  text-align: center;
+  width: 100%;
+  position: relative; /* Add this line */
+}
+
+.slogan {
+  font-size: 2em; /* Adjusted for smaller size */
+  text-align: center;
+  width: 100%;
+  margin-top: 20px; /* Ensure there's space between title and slogan */
+  position: relative; /* Add this line */
+}
+
+/* Absolutely position the cursor at the end of the typed text */
+.typed-cursor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block; /* This keeps the cursor on the same line as the text */
+}
+/* Additional styles... */
+
+/* Add the new .typed-cursor rule here, at the end of the file */
+/* Add this to your CSS file */
+.typed-cursor {
+  display: inline-block;
+  vertical-align: bottom; /* Align cursor with the text baseline */
+}
